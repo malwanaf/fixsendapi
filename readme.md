@@ -28,7 +28,6 @@ cd fixsendapi
 
 ```bash
 python3 -m venv env_name
-
 source .venv/env_name/bin/activate
 ```
 
