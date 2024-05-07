@@ -52,3 +52,23 @@ source .venv/env_name/bin/activate
 ```bash
 python main.py
 ```
+
+## Supported JSON Format
+
+```bash
+{
+  "data0": {
+    "id": 0,
+    "time": "2024-04-27",
+    "distance": 3,
+    "intensity": 8
+  },
+  "data0": {
+    "id": 0,
+    "time": "2024-04-27",
+    "distance": 3,
+    "intensity": 8
+  }
+}
+
+```
