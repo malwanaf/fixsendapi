@@ -24,7 +24,6 @@ git clone https://github.com/malwanaf/fixsendapi.git
 cd fixsendapi
 ```
 
-
 2. Using python venv (optional)
 
 ```bash
@@ -43,14 +42,13 @@ source .venv/env_name/bin/activate
 
 #### Replace the following variables in the script according to your setup:
 
-json_file_path: Path to the JSON file to monitor.
+1. json_file_path: Path to the JSON file to monitor.
 
-api_url: URL of the API endpoint to send the data.
+2. api_url: URL of the API endpoint to send the data.
 
-sent_entries_file: Path to the file storing the IDs of sent entries.
+3. sent_entries_file: Path to the file storing the IDs of sent entries.
 
-
-Go to the file location, and run the app:
+4. Go to the file location, and run the app:
 
 ```bash
 python api-send.py
