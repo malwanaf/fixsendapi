@@ -50,5 +50,5 @@ source .venv/env_name/bin/activate
 4. Go to the file location, and run the app:
 
 ```bash
-python api-send.py
+python main.py
 ```
