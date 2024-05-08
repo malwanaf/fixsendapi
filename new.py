@@ -2,10 +2,15 @@ import requests
 import json
 import time
 import os
+from json.decoder import JSONDecodeError
 
 def load_json_data(json_file_path):
-    with open(json_file_path, 'r') as file:
-        return json.load(file)
+    try:
+        with open(json_file_path, 'r') as file:
+            return json.load(file)
+    except JSONDecodeError:
+        print("JSON file is empty.")
+        return {}
 
 def post_json_to_api(json_data, api_url):
     try:
@@ -43,7 +48,7 @@ if __name__ == "__main__":
     # Change API_URL
     api_url = 'YOUR_API_URL'
 
-    sent_entries_file = './sent_entries.json'
+    sent_entries_file = './sent_entries2.json'
 
     # Wait until data-new.json exists
     while not os.path.exists(json_file_path):
