@@ -41,7 +41,7 @@ if __name__ == "__main__":
     json_file_path = './data-new.json'
 
     # Change API_URL
-    api_url = 'https://lightningdetectorbmkg-default-rtdb.asia-southeast1.firebasedatabase.app/ld/raspy/data.json?auth=ZZHqaBLfrb8u0ULLoCfHfsH0sHJVtASoAGilrbsV'
+    api_url = 'YOUR_API_URL'
 
     sent_entries_file = './sent_entries.json'
 
