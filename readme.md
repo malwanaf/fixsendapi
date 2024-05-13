@@ -72,3 +72,5 @@ python main.py
 }
 
 ```
+
+https://lddb-51b02-default-rtdb.asia-southeast1.firebasedatabase.app/db/raspy.json?auth=rS3XrS4WifKlKwXG0CrYa9hdslqifgZAB6wXAVMo
