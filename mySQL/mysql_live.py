@@ -4,7 +4,7 @@ import time
 
 # Function to send data to API
 def send_data_to_api(data):
-    url = 'http://localhost:3000/strikes'  # Change this URL if needed
+    url = 'http://192.168.1.113:3000/strikes'  # Change this URL if needed
     headers = {'Content-Type': 'application/json'}
     response = requests.post(url, json=data, headers=headers)
     if response.status_code == 201:
